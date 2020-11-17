@@ -1,9 +1,9 @@
 import React from 'react';
 
 const bar = {
-	backgroundColor: '#00416d',
+	backgroundColor: '#34626c',
 	padding: '10px',
-	color: '#f8bd7f',
+	color: '#839b97',
 	fontSize: '25px',
 	marginBottom: '15px',
 };

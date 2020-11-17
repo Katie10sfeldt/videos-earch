@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 
 const style = {
-	backgroundColor: '#fbf6f0',
+	// backgroundColor: '#fbf6f0',
 };
 
 export default function SerchBar({ onFormSubmit }) {
