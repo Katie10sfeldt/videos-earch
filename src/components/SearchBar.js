@@ -1,5 +1,9 @@
 import React, { useState } from 'react';
 
+const style = {
+	backgroundColor: '#fbf6f0',
+};
+
 export default function SerchBar({ onFormSubmit }) {
 	const [term, setTerm] = useState('');
 
@@ -18,7 +22,12 @@ export default function SerchBar({ onFormSubmit }) {
 			<form onSubmit={onSubmit} className='ui form'>
 				<div className='field'>
 					<label>Search for a Video</label>
-					<input type='text' value={term} onChange={onInputChange} />
+					<input
+						style={style}
+						type='text'
+						value={term}
+						onChange={onInputChange}
+					/>
 				</div>
 			</form>
 		</div>
